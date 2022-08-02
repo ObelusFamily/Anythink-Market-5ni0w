@@ -36,7 +36,12 @@ const ItemPreview = (props) => {
     >
       <img
         alt="item"
+<<<<<<< HEAD
         src={item.image}
+=======
+       // src={item.image}
+        src={item.image || "./placeholder.png"}
+>>>>>>> ash_branch
         className="card-img-top item-img"
         style={{ borderRadius: "20px" }}
       />
