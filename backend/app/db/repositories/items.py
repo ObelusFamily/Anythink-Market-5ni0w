@@ -303,7 +303,7 @@ class ItemsRepository(BaseRepository):  # noqa: WPS214
             raise Exception(f'No item with slug {slug}')
         title = result_rows[0]['title']
         ### if no image is there then the len of png title ==0
-	png = item_row['image']
+        png = item_row['image']
         if len(png) == 0:
             png = 'placeholder.png'
 
